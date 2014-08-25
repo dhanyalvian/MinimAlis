@@ -2,8 +2,8 @@
             </div>
         </div>
         
-        <script src="assets/js/jquery-2.1.1.min.js" type="text/javascript"></script>
-        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="assets/js/script.js" type="text/javascript"></script>
+        <script src="assets/js/core/jquery-2.1.1.min.js" type="text/javascript"></script>
+        <script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+        <script src="assets/js/core/script.js" type="text/javascript"></script>
     </body>
 </html>

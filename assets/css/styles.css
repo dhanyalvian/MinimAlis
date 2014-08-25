@@ -50,13 +50,37 @@ a {
     display: block;
     z-index: 100;
     background-color: #f0f0f0;
+    height: 100%;
     width: 192px;
     max-width: 192px;
+    padding-top: 10px;
 }
 .navbar-side-fixed {
     position: fixed;
     top: 0;
     z-index: 999;
+}
+.navbar-side > .nav > li > a {
+    font-size: 12px;
+    color: #333333;
+    padding: 8px 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.navbar-side > .nav > li > a:hover,
+.navbar-side > .nav > li.active > a {
+    background-color: #dfdfdf;
+    color: #000000;
+}
+.navbar-side > .nav > li.active > a {
+    font-weight: bold;
+}
+.navbar-side > .nav > li.subnav > a {
+    cursor: default;
+    font-size: 18px;
+}
+.navbar-side > .nav > li.subnav > a,
+.navbar-side > .nav > li.subnav > a:hover {
+    background-color: #f0f0f0;
 }
 
 .page-content {
@@ -109,7 +133,19 @@ a {
     /*margin-top: 12px;*/
 }
 .btn-group .dropdown-menu {
-    border-radius: 4px;
+    /*border-radius: 4px;*/
+}
+.btn-sm,
+.btn-group-sm > .btn {
+    border-radius: 0;
+}
+.btn-theme > .btn-default {
+    background-color: #333333;
+    border: 1px solid #333333;
+    color: #f5f5f5;
+}
+.btn-theme > .btn-default:hover {
+    background-color: #080808;
 }
 
 .row-panel {
@@ -163,6 +199,8 @@ a {
     border-bottom: none;
     padding: 10px;
 }
+
+
 
 
 

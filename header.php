@@ -12,12 +12,12 @@
         
         <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/styles.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/themes.css" rel="stylesheet" type="text/css" />
     </head>
     
     <body>
-        <div role="navigation" class="navbar navbar-inverse navbar-static-top">
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -138,27 +138,66 @@
         
         <div class="container-fluid page-content">
             <div class="navbar-side">
-                <ul class="nav bs-sidenav">
+                <ul class="nav">
+                    <li class="subnav">
+                        <a>Basics Form</a>
+                    </li>
                     <li class="active">
-                        <a class="" href="http://localhost:235/master_data/handler">Handler</a>
+                        <a class="" href="#">
+                            <span class="fa fa-clock-o glyphicon-left"></span>
+                            Timeline
+                        </a>
                     </li>
                     <li class="">
-                        <a class="" href="http://localhost:235/master_data/module">Message Module</a>
+                        <a class="" href="#">
+                            <span class="fa fa-bar-chart-o glyphicon-left"></span>
+                            Page Statistics
+                        </a>
                     </li>
                     <li class="">
-                        <a class="" href="http://localhost:235/master_data/charging">Charging</a>
+                        <a class="" href="#">
+                            <span class="fa fa-exchange glyphicon-left"></span>
+                            Sidebar Widgets
+                        </a>
+                    </li>
+                    <li class="subnav">
+                        <a>Components</a>
                     </li>
                     <li class="">
-                        <a class="" href="http://localhost:235/master_data/operator">Operator</a>
+                        <a class="" href="#">
+                            <span class="fa fa-wechat glyphicon-left"></span>
+                            Messages & Chat
+                        </a>
                     </li>
                     <li class="">
-                        <a class="" href="http://localhost:235/master_data/adn">ADN</a>
+                        <a class="" href="#">
+                            <span class="fa fa-image glyphicon-left"></span>
+                            Gallery & Thumbs
+                        </a>
                     </li>
                     <li class="">
-                        <a class="" href="http://localhost:235/master_data/test_number">Test Number</a>
+                        <a class="" href="#">
+                            <span class="fa fa-th-large glyphicon-left"></span>
+                            Tiles
+                        </a>
                     </li>
                     <li class="">
-                        <a class="" href="http://localhost:235/master_data/message_reply_charging">Message Reply/Charging</a>
+                        <a class="" href="#">
+                            <span class="fa fa-keyboard-o glyphicon-left"></span>
+                            Icons & Buttons
+                        </a>
+                    </li>
+                    <li class="">
+                        <a class="" href="#">
+                            <span class="fa fa-file-code-o glyphicon-left"></span>
+                            Bootstrap Components
+                        </a>
+                    </li>
+                    <li class="">
+                        <a class="" href="#">
+                            <span class="fa fa-list-alt glyphicon-left"></span>
+                            Grid
+                        </a>
                     </li>
                 </ul>
             </div>
