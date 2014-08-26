@@ -27,6 +27,15 @@ $(document).ready(function() {
             stickyNav();
         });
     }
+        
+    $('.panel a.toggle').click(function() {
+        if ($(this).parent().parent().parent().parent().children('.panel-body').css('display') == 'none') {
+            $(this).parent().parent().parent().parent().children('.panel-body').show();
+        }
+        else {
+            $(this).parent().parent().parent().parent().children('.panel-body').hide();
+        }
+    });
     
     $('#toggle-navbar-side').click(function() {
         if ($('.navbar-side').css('display') == 'none') {

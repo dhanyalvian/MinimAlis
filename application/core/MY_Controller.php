@@ -132,6 +132,7 @@ class MY_Controller extends CI_Controller {
         $this->_data['navigation'] = $this->getNavigation();
         $this->_data['sub_navigation'] = $this->getSubNavigation();
         $this->_data['home_url'] = base_url() . $this->config->item('home_url');
+        $this->_data['url_suffix'] = $this->config->item('url_suffix');
         $this->_data['user_fullname'] = $this->getUserFullname();
         $this->_data['profile_photo'] = $this->getPhotoProfile();
         $this->_data['footer_text'] = $this->config->item('footer_text');
@@ -176,19 +177,20 @@ class MY_Controller extends CI_Controller {
             $rows = $this->getNavigationData();
 
             foreach ($rows as $row) {
-                array_push($this->_aclController, $row->controller);
+                array_push($this->_aclController, $row['controller']);
                 
-                if ($row->parent != 0) {
+                if ($row['parent'] != 0) {
                     continue;
                 }
                 
                 $result[] = array (
-                    'id' => $row->id,
-                    'controller' => $row->controller,
-                    'title' => $row->title,
-                    'url' => $row->url,
-                    'display' => $row->display,
-                    'sub_nav' => $this->getNavigationData($row->id)
+                    'id' => $row['id'],
+                    'controller' => $row['controller'],
+                    'title' => $row['title'],
+                    'url' => $row['url'],
+                    'display' => $row['display'],
+                    'icon' => $row['icon'],
+                    'sub_nav' => $this->getNavigationData($row['id'])
                 );
             }
         }
@@ -205,16 +207,16 @@ class MY_Controller extends CI_Controller {
             $rows = $this->getNavigationData($parentId);
 
             foreach ($rows as $row) {
-                array_push($this->_aclController, $row->controller);
-                if ($row->display == 0) {
+                array_push($this->_aclController, $row['controller']);
+                if ($row['display'] == 0) {
                     continue;
                 }
                 
                 $result[] = array (
-                    'id' => $row->id,
-                    'controller' => $row->controller,
-                    'title' => $row->title,
-                    'url' => $row->url,
+                    'id' => $row['id'],
+                    'controller' => $row['controller'],
+                    'title' => $row['title'],
+                    'url' => $row['url'],
                     'sub_nav' => array ()
                 );
             }

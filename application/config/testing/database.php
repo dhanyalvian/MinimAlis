@@ -49,12 +49,12 @@ $active_group = 'default';
 $active_record = true;
 $default_host = 'localhost';
 $default_user = 'root';
-$default_pass = '';
+$default_pass = 'abcd1234';
 
 $db['default']['hostname'] = $default_host;
 $db['default']['username'] = $default_user;
 $db['default']['password'] = $default_pass;
-$db['default']['database'] = 'sia';
+$db['default']['database'] = 'minimalis';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = false;

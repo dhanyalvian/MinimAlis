@@ -19,6 +19,16 @@ class Dashboard extends MY_Controller {
     }
     
     public function index() {
+        $this->_data['dashboard_icon'] = array (
+            'fa-android',
+            'fa-apple',
+            'fa-windows',
+            'fa-git',
+            'fa-github',
+            'fa-bitbucket',
+            'fa-drupal',
+            'fa-wordpress',
+        );
         $this->load->view('structure', $this->_data);
     }
 }

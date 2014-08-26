@@ -64,7 +64,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     
-                    <a href="<?php echo $home_url; ?>" class="navbar-brand">
+                    <a href="<?php echo $home_url . ".html"; ?>" class="navbar-brand">
                         <span class="fa fa-html5"></span>
                         <?php echo $apps_title; ?>
                     </a>
@@ -85,7 +85,7 @@
 
                                 $navActive = ($nav['controller'] == $page_active) ? 'active' : '';
                                 $navTitle = $nav['title'];
-                                $navUrl = $nav['url'] == '#' ? $nav['url'] : $base_url . $nav['url'];
+                                $navUrl = $nav['url'] == '#' ? $nav['url'] : $base_url . $nav['url'] . $url_suffix;
                                 $navSub = $nav['sub_nav'];
                                 $navToggle = (is_array($navSub) && count($navSub) > 0) ? 'dropdown-toggle' : '';
                                 $navDropdown = (is_array($navSub) && count($navSub) > 0) ? 'dropdown' : '';
@@ -101,8 +101,8 @@
                                         <ul class="dropdown-menu">
                                             <?php foreach ($navSub as $_nav): ?>
                                                 <?php
-                                                $_navTitle = $_nav->title;
-                                                $_navUrl = $base_url . $_nav->url;
+                                                $_navTitle = $_nav['title'];
+                                                $_navUrl = $_nav['url'] == '#' ? $_nav['url'] : $base_url . $_nav['url'] . $url_suffix;
                                                 ?>
                                                 <li>
                                                     <a href="<?php echo $_navUrl; ?>"><?php echo $_navTitle; ?></a>

@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url'] = 'http://192.168.24.6/sia/cms/';
+$config['base_url'] = 'http://minimalis.lokal/';
 
 /*
 |--------------------------------------------------------------------------

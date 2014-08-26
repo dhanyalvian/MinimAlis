@@ -199,6 +199,27 @@
                             Grid
                         </a>
                     </li>
+                    <li class="subnav">
+                        <a>Basics Form</a>
+                    </li>
+                    <li class="active">
+                        <a class="" href="#">
+                            <span class="fa fa-clock-o glyphicon-left"></span>
+                            Timeline
+                        </a>
+                    </li>
+                    <li class="">
+                        <a class="" href="#">
+                            <span class="fa fa-bar-chart-o glyphicon-left"></span>
+                            Page Statistics
+                        </a>
+                    </li>
+                    <li class="">
+                        <a class="" href="#">
+                            <span class="fa fa-exchange glyphicon-left"></span>
+                            Sidebar Widgets
+                        </a>
+                    </li>
                 </ul>
             </div>
 

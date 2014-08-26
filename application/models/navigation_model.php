@@ -21,7 +21,7 @@ class Navigation_model extends MY_Model {
         
         $roleIds = $this->getRoleId($role);
 
-        $this->dbConn->select('id, controller, title, url, parent, display');
+        $this->dbConn->select('id, controller, title, url, parent, display, icon');
         
         if (is_array($roleIds)) {
             $this->dbConn->where_in('id', $roleIds);
@@ -32,7 +32,7 @@ class Navigation_model extends MY_Model {
         $query = $this->dbConn->get($this->tblNavigation);
 
         if ($query->num_rows() > 0) {
-            $result = $query->result();
+            $result = $query->result_array();
         }
 
         return $result;
