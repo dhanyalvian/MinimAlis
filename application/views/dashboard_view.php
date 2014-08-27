@@ -57,14 +57,36 @@
     <li class="active">Dashboard</li>
 </ol>
 
-<?php if (is_array($dashboard_icon) && count($dashboard_icon)): ?>
-    <div class="row-panel">
-        <?php foreach ($dashboard_icon as $icon): ?>
-            <div class="pull-left dashboard-icon">
-                <span class="fa <?php echo $icon; ?>"></span>
-            </div>
-        <?php endforeach; ?>
+<?php if (is_array($dashboard_overview) && count($dashboard_overview)): ?>
+    <div class="row-panel dashboard-overview">
+        <?php $x = 1; ?>
+        <?php foreach ($dashboard_overview as $key => $row): ?>
+            <?php
+            if ($x == 1):
+                $panelPosition = 'panel-left';
+            elseif ($x == count($dashboard_overview)):
+                $panelPosition = 'panel-right';
+            else:
+                $panelPosition = 'panel-center';
+            endif;
+            ?>
+            <div class="<?php echo $panelPosition; ?> col-lg-3 container-fluid">
+                <div class="panel">
+                    <div class="pull-left do-icon">
+                        <span class="fa <?php echo $row['icon']; ?>"></span>
+                    </div>
 
+                    <div class="pull-left do-value">
+                        <div class="total"><?php echo number_format(rand(10, 10000)); ?></div>
+                        <div class="title"><?php echo $row['title']; ?></div>
+                    </div>
+
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <?php $x++; ?>
+        <?php endforeach; ?>
+        
         <div class="clearfix"></div>
     </div>
 <?php endif; ?>
@@ -73,18 +95,55 @@
     <div class="col-sm-6 panel-left panel-theme">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">
+                <div class="panel-title">
                     <div class="pull-left">
                         <span class="fa fa-bar-chart-o glyphicon-left"></span>
                         Audience Overview
                     </div>
                     
                     <div class="pull-right">
-                        <a class=""><span class="fa fa-refresh glyphicon-right"></span></a>
-                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                        <a class=""><span class="fa fa-refresh"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-down"></span></a>
                     </div>
                     <div class="clearfix"></div>
-                </h3>
+                </div>
+            </div>
+
+            <div class="panel-body">
+                <div>
+                    <div class="pull-left">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
+                                Today
+                                <span class="caret"></span>
+                            </button>
+
+                            <ul class="dropdown-menu dropdown-menu-left" role="menu">
+                                <li><a href="#">Last 7 days</a></li>
+                                <li><a href="#">Last Month</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6 panel-right">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="panel-title">
+                    <div class="pull-left">
+                        <span class="fa fa-hdd-o glyphicon-left"></span>
+                        HDD Usage
+                    </div>
+                    
+                    <div class="pull-right">
+                        <a class=""><span class="fa fa-refresh"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-down"></span></a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
             </div>
 
             <div class="panel-body">
@@ -95,29 +154,6 @@
                         </select>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-sm-6 panel-right">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    <div class="pull-left">
-                        <span class="glyphicon glyphicon-signal glyphicon-left"></span>
-                        HDD Usage
-                    </div>
-                    
-                    <div class="pull-right">
-                        <a class=""><span class="fa fa-refresh glyphicon-right"></span></a>
-                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
-                    </div>
-                    <div class="clearfix"></div>
-                </h3>
-            </div>
-
-            <div class="panel-body">
-                Panel content
             </div>
         </div>
     </div>

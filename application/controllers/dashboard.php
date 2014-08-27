@@ -19,15 +19,27 @@ class Dashboard extends MY_Controller {
     }
     
     public function index() {
-        $this->_data['dashboard_icon'] = array (
-            'fa-android',
-            'fa-apple',
-            'fa-windows',
-            'fa-git',
-            'fa-github',
-            'fa-bitbucket',
-            'fa-drupal',
-            'fa-wordpress',
+        $this->_data['dashboard_overview'] = array (
+            array (
+                'icon' => 'fa-user',
+                'title' => 'Users',
+                'total' => 222,
+            ),
+            array (
+                'icon' => 'fa-tags',
+                'title' => 'Sales',
+                'total' => 1234,
+            ),
+            array (
+                'icon' => 'fa-shopping-cart',
+                'title' => 'New Order',
+                'total' => 326,
+            ),
+            array (
+                'icon' => 'fa-bar-chart-o',
+                'title' => 'Total Profit',
+                'total' => 12314,
+            ),
         );
         $this->load->view('structure', $this->_data);
     }

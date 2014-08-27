@@ -3,24 +3,22 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/minimalis/application/views/header.php</file>
-            <file>file:/C:/xampp/htdocs/minimalis/header.php</file>
-            <file>file:/C:/xampp/htdocs/minimalis/application/core/MY_Controller.php</file>
-            <file>file:/C:/xampp/htdocs/minimalis/footer.php</file>
-            <file>file:/C:/xampp/htdocs/minimalis/application/views/structure.php</file>
-            <file>file:/C:/xampp/htdocs/minimalis/application/views/container.php</file>
-            <file>file:/C:/xampp/htdocs/minimalis/application/models/navigation_model.php</file>
-            <file>file:/C:/xampp/htdocs/minimalis/application/controllers/forms/basic_forms.php</file>
-            <file>file:/C:/xampp/htdocs/minimalis/application/views/dashboard_view.php</file>
-            <file>file:/C:/xampp/htdocs/minimalis/application/views/forms/basic_forms_view.php</file>
-            <file>file:/C:/xampp/htdocs/minimalis/assets/css/styles.css</file>
-            <file>file:/C:/xampp/htdocs/minimalis/application/controllers/components/glyphicons.php</file>
-            <file>file:/C:/xampp/htdocs/minimalis/application/config/routes.php</file>
-            <file>file:/C:/xampp/htdocs/minimalis/assets/css/themes.css</file>
-            <file>file:/C:/xampp/htdocs/minimalis/dashboard.php</file>
-            <file>file:/C:/xampp/htdocs/minimalis/assets/js/core/script.js</file>
-            <file>file:/C:/xampp/htdocs/minimalis/application/views/footer.php</file>
-            <file>file:/C:/xampp/htdocs/minimalis/application/views/components/glyphicons_view.php</file>
+            <file>file:/var/www/minimalis/application/config/testing/config.php</file>
+            <file>file:/var/www/minimalis/application/config/testing/database.php</file>
+            <file>file:/var/www/minimalis/index.php</file>
+            <file>file:/var/www/minimalis/application/config/development/config.php</file>
+            <file>file:/var/www/minimalis/application/config/development/database.php</file>
+            <file>file:/var/www/minimalis/application/config/routes.php</file>
+            <file>file:/var/www/minimalis/application/views/header.php</file>
+            <file>file:/var/www/minimalis/application/views/container.php</file>
+            <file>file:/var/www/minimalis/application/core/MY_Controller.php</file>
+            <file>file:/var/www/minimalis/header.php</file>
+            <file>file:/var/www/minimalis/assets/css/styles.css</file>
+            <file>file:/var/www/minimalis/assets/css/themes.css</file>
+            <file>file:/var/www/minimalis/application/models/navigation_model.php</file>
+            <file>file:/var/www/minimalis/assets/js/core/script.js</file>
+            <file>file:/var/www/minimalis/application/views/dashboard_view.php</file>
+            <file>file:/var/www/minimalis/application/controllers/dashboard.php</file>
         </group>
     </open-files>
 </project-private>
