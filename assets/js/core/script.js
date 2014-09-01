@@ -30,9 +30,11 @@ $(document).ready(function() {
         
     $('.panel a.toggle').click(function() {
         if ($(this).parent().parent().parent().parent().children('.panel-body').css('display') == 'none') {
+            $(this).children('span.fa').removeClass('fa-angle-down').addClass('fa-angle-up');
             $(this).parent().parent().parent().parent().children('.panel-body').show();
         }
         else {
+            $(this).children('span.fa').removeClass('fa-angle-up').addClass('fa-angle-down');
             $(this).parent().parent().parent().parent().children('.panel-body').hide();
         }
     });

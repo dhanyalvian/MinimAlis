@@ -136,7 +136,7 @@
                 </div>
             </div>
         </div>
-                
+        
         <?php /*
         <!-- Fixed navbar -->
         <div class="navbar <?php echo $header_skin; ?> navbar-static-top">

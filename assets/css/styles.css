@@ -7,6 +7,10 @@ body {
 a {
     cursor: pointer;
 }
+a:focus {
+    outline: none;
+    outline-offset: 0;
+}
 
 .container-fluid {
     padding-left: 0;
@@ -64,7 +68,7 @@ a {
 .navbar-side > .nav > li > a {
     font-size: 12px;
     color: #333333;
-    padding: 8px 15px;
+    padding: 6px 15px;
     border-bottom: 1px solid #f0f0f0;
 }
 .navbar-side > .nav > li > a:hover,
@@ -77,7 +81,7 @@ a {
 }
 .navbar-side > .nav > li.subnav > a {
     cursor: default;
-    font-size: 18px;
+    font-size: 16px;
 }
 .navbar-side > .nav > li.subnav > a,
 .navbar-side > .nav > li.subnav > a:hover {
@@ -94,7 +98,7 @@ a {
 
 .header {
     background-color: #cccccc;
-    min-height: 40px;
+    /*min-height: 40px;*/
     margin-top: 5px;
     margin-bottom: 10px;
 }
@@ -240,12 +244,16 @@ a {
     background-color: #f5f5f5;
     border: 1px solid #f5f5f5;
     border: 1px solid #333333;
+    position: relative;
 }
 .dashboard-overview .panel:hover {
     /*background-color: #dfdfdf;*/
     /*border: 1px solid #cccccc;*/
 }
 .dashboard-overview .do-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
     background-color: #333333;
     color: #ffffff;
     font-size: 40px;
@@ -254,14 +262,15 @@ a {
     text-align: center;
 }
 .dashboard-overview .do-value {
-    padding: 2px 10px;
-    margin: auto;
+    margin-left: 75px;
 }
 .dashboard-overview .do-value .total {
-    font-size: 32px;
+    padding: 6px 10px 2px 10px;
+    font-size: 26px;
+    overflow: hidden;
 }
 .dashboard-overview .do-value .title {
-    padding: 0px 2px;
+    padding: 2px 10px 6px 10px;
 }
 
 .footer {

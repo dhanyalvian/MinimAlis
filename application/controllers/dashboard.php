@@ -21,23 +21,27 @@ class Dashboard extends MY_Controller {
     public function index() {
         $this->_data['dashboard_overview'] = array (
             array (
-                'icon' => 'fa-user',
-                'title' => 'Users',
-                'total' => 222,
-            ),
-            array (
                 'icon' => 'fa-tags',
-                'title' => 'Sales',
-                'total' => 1234,
+                'title' => 'Lifetime Sales',
+                'currency' => 'Rp',
+                'total' => 2620890,
             ),
             array (
                 'icon' => 'fa-shopping-cart',
-                'title' => 'New Order',
-                'total' => 326,
+                'title' => 'Average Orders',
+                'currency' => 'Rp',
+                'total' => 342135,
+            ),
+            array (
+                'icon' => 'fa-user',
+                'title' => 'Users Registered',
+                'currency' => false,
+                'total' => 39607,
             ),
             array (
                 'icon' => 'fa-bar-chart-o',
                 'title' => 'Total Profit',
+                'currency' => false,
                 'total' => 12314,
             ),
         );

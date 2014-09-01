@@ -1,65 +1,9 @@
-<div class="header">
-    <div class="pull-left">
-        <div class="header-title">
-            <!--span class="fa fa-dashboard"></span-->
-            <?php echo $page_title; ?>
-        </div>
-
-
-    </div>
-
-    <div class="pull-right global-button">
-        <!--div class="btn-group">
-            <button type="button" class="btn btn-default btn-sm">
-                <span class="glyphicon glyphicon-compressed"></span>
-                Button
-                <span class="glyphicon glyphicon-log-out"></span>
-            </button>
-            <button type="button" class="btn btn-default btn-sm">Edit</button>
-        </div-->
-        <div class="btn-group">
-            <button type="button" class="btn btn-default btn-sm">
-                Submit
-            </button>
-
-            <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
-                Action
-                <span class="caret"></span>
-            </button>
-
-            <ul class="dropdown-menu dropdown-menu-right" role="menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-            </ul>
-        </div>
-        
-        <div class="btn-group btn-theme">
-            <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
-                Action <span class="caret"></span>
-            </button>
-
-            <ul class="dropdown-menu dropdown-menu-right" role="menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<ol class="breadcrumb">
-    <li><a href="#">MinimalisAbis</a></li>
-    <li class="active">Dashboard</li>
-</ol>
-
 <?php if (is_array($dashboard_overview) && count($dashboard_overview)): ?>
     <div class="row-panel dashboard-overview">
-        <?php $x = 1; ?>
+        <?php
+        $x = 1;
+        $colLg = 12 / count($dashboard_overview);
+        ?>
         <?php foreach ($dashboard_overview as $key => $row): ?>
             <?php
             if ($x == 1):
@@ -69,15 +13,18 @@
             else:
                 $panelPosition = 'panel-center';
             endif;
+            
+            $currency = $row['currency'] ? $row['currency'] : '';
+            $total = number_format($row['total']);
             ?>
-            <div class="<?php echo $panelPosition; ?> col-lg-3 container-fluid">
+            <div class="<?php echo $panelPosition; ?> col-lg-<?php echo $colLg; ?> container-fluid">
                 <div class="panel">
-                    <div class="pull-left do-icon">
+                    <div class="do-icon">
                         <span class="fa <?php echo $row['icon']; ?>"></span>
                     </div>
 
-                    <div class="pull-left do-value">
-                        <div class="total"><?php echo number_format(rand(10, 10000)); ?></div>
+                    <div class="do-value container-fluid">
+                        <div class="total"><?php echo $currency . $total; ?></div>
                         <div class="title"><?php echo $row['title']; ?></div>
                     </div>
 
@@ -103,7 +50,7 @@
                     
                     <div class="pull-right">
                         <a class=""><span class="fa fa-refresh"></span></a>
-                        <a class="toggle"><span class="fa fa-angle-down"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-up"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -140,7 +87,7 @@
                     
                     <div class="pull-right">
                         <a class=""><span class="fa fa-refresh"></span></a>
-                        <a class="toggle"><span class="fa fa-angle-down"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-up"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -171,14 +118,14 @@
                         Audience Overview
                     </div>
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-up glyphicon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>
             </div>
 
             <div class="panel-body" style="height: 285px;">
-                Panel content
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
             </div>
         </div>
     </div>
@@ -192,7 +139,7 @@
                         Audience Overview
                     </div>
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-up glyphicon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>
@@ -215,7 +162,7 @@
                         </div>
                         
                         <div class="pull-right">
-                            <a class="toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                            <a class="toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="fa fa-angle-up glyphicon-right"></span></a>
                         </div>
                         
                         <div class="clearfix"></div>
@@ -238,7 +185,7 @@
                         </div>
                         
                         <div class="pull-right">
-                            <a class="toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                            <a class="toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="fa fa-angle-up glyphicon-right"></span></a>
                         </div>
                         
                         <div class="clearfix"></div>
@@ -261,7 +208,7 @@
                         </div>
                         
                         <div class="pull-right">
-                            <a class="toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                            <a class="toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="fa fa-angle-up glyphicon-right"></span></a>
                         </div>
                         
                         <div class="clearfix"></div>
@@ -291,7 +238,7 @@
                     </div>
                     
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-up glyphicon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>
@@ -319,7 +266,7 @@
                     </div>
                     
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-up glyphicon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>
@@ -347,7 +294,7 @@
                     </div>
                     
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-up glyphicon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>
@@ -375,7 +322,7 @@
                     </div>
                     
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-up glyphicon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>
@@ -407,7 +354,7 @@
                     </div>
                     
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-up glyphicon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>
