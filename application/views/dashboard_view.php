@@ -50,33 +50,19 @@
                     
                     <div class="pull-right">
                         <a class=""><span class="fa fa-refresh"></span></a>
-                        <a class="toggle"><span class="fa fa-angle-up"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-down"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </div>
             </div>
 
             <div class="panel-body">
-                <div>
-                    <div class="pull-left">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
-                                Today
-                                <span class="caret"></span>
-                            </button>
-
-                            <ul class="dropdown-menu dropdown-menu-left" role="menu">
-                                <li><a href="#">Last 7 days</a></li>
-                                <li><a href="#">Last Month</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <div id="chart1" class="chart"></div>
             </div>
         </div>
     </div>
 
-    <div class="col-sm-6 panel-right">
+    <div class="col-sm-6 panel-right panel-theme">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <div class="panel-title">
@@ -87,20 +73,14 @@
                     
                     <div class="pull-right">
                         <a class=""><span class="fa fa-refresh"></span></a>
-                        <a class="toggle"><span class="fa fa-angle-up"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-down"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </div>
             </div>
 
             <div class="panel-body">
-                <div>
-                    <div class="pull-left">
-                        <select class="form-control">
-                            <option value="">Visits</option>
-                        </select>
-                    </div>
-                </div>
+                <div id="chart2" class="chart"></div>
             </div>
         </div>
     </div>
@@ -118,7 +98,7 @@
                         Audience Overview
                     </div>
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-up glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>
@@ -139,7 +119,7 @@
                         Audience Overview
                     </div>
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-up glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>
@@ -162,7 +142,7 @@
                         </div>
                         
                         <div class="pull-right">
-                            <a class="toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="fa fa-angle-up glyphicon-right"></span></a>
+                            <a class="toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="fa fa-angle-down glyphicon-right"></span></a>
                         </div>
                         
                         <div class="clearfix"></div>
@@ -185,7 +165,7 @@
                         </div>
                         
                         <div class="pull-right">
-                            <a class="toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="fa fa-angle-up glyphicon-right"></span></a>
+                            <a class="toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="fa fa-angle-down glyphicon-right"></span></a>
                         </div>
                         
                         <div class="clearfix"></div>
@@ -208,7 +188,7 @@
                         </div>
                         
                         <div class="pull-right">
-                            <a class="toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="fa fa-angle-up glyphicon-right"></span></a>
+                            <a class="toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="fa fa-angle-down glyphicon-right"></span></a>
                         </div>
                         
                         <div class="clearfix"></div>
@@ -238,7 +218,7 @@
                     </div>
                     
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-up glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>
@@ -266,7 +246,7 @@
                     </div>
                     
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-up glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>
@@ -294,7 +274,7 @@
                     </div>
                     
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-up glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>
@@ -322,7 +302,7 @@
                     </div>
                     
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-up glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>
@@ -354,7 +334,7 @@
                     </div>
                     
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-up glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>

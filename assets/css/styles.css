@@ -301,4 +301,8 @@ a:focus {
  */
 .row-panel .panel-body {
     min-height: 200px;
+    max-height: 400px;
+}
+.row-panel .panel-body .chart {
+    height: 260px;
 }
