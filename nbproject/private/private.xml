@@ -19,6 +19,8 @@
             <file>file:/var/www/minimalis/assets/js/core/script.js</file>
             <file>file:/var/www/minimalis/application/views/dashboard_view.php</file>
             <file>file:/var/www/minimalis/application/controllers/dashboard.php</file>
+            <file>file:/var/www/minimalis/assets/js/core/flot.js</file>
+            <file>file:/var/www/minimalis/application/config/config_app.php</file>
         </group>
     </open-files>
 </project-private>

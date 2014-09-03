@@ -89,13 +89,13 @@
 </div>
 
 <div class="row-panel">
-    <div class="col-sm-4 panel-left">
+    <div class="col-sm-4 panel-left panel-theme">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <div class="pull-left">
-                        <span class="fa fa-bar-chart-o glyphicon-left"></span>
-                        Audience Overview
+                        <span class="fa fa-tags glyphicon-left"></span>
+                        Best Sellers
                     </div>
                     <div class="pull-right">
                         <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
@@ -103,10 +103,17 @@
                     <div class="clearfix"></div>
                 </h3>
             </div>
-
-            <div class="panel-body" style="height: 285px;">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
+            
+            <?php if (is_array($best_sellers) && count($best_sellers) > 0): ?>
+                <div class="list-group">
+                    <?php foreach ($best_sellers as $key => $value): ?>
+                        <a class="list-group-item">
+                            <?php echo $value; ?>
+                            <span class="badge"><?php echo number_format($key); ?></span>
+                        </a>
+                    <?php endforeach; ?>
+                </div>
+            <?php endif; ?>
         </div>
     </div>
 

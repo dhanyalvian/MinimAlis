@@ -45,6 +45,19 @@ class Dashboard extends MY_Controller {
                 'total' => 12314,
             ),
         );
+        
+        $bestSellers = array (
+            5700 => 'SGM Ananda Presinutri 2 400gr Box',
+            5093 => 'Huggies Ultra L 34',
+            5063 => 'Bebelac 3 Madu 800gr Tin',
+            4282 => 'Bebelac 3 Vanilla 800gr (tin)',
+            3783 => 'Huggies Ultra M 40',
+            12043 => 'Morinaga BMT Platinum 800gr Tin',
+            11240 => 'S26 Gold Tahap 1 900gr Tin',
+        );
+        krsort($bestSellers);
+        
+        $this->_data['best_sellers'] = $bestSellers;
         $this->load->view('structure', $this->_data);
     }
 }

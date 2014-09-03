@@ -19,6 +19,7 @@ $config['js_file_bottom'] = array (
     'jquery-2.1.1.min',
     'bootstrap.min',
     'flot',
+    'flot.resize',
     'flot.categories',
     'script',
 );
