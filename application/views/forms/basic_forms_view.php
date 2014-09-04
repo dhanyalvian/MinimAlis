@@ -1,194 +1,83 @@
 <div class="row-panel">
-    <div class="col-sm-6 panel-left panel-theme">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    <div class="pull-left">
-                        <span class="fa fa-bar-chart-o glyphicon-left"></span>
-                        Audience Overview
-                    </div>
-                    <div class="pull-right">
-                        <a class=""><span class="fa fa-refresh glyphicon-right"></span></a>
-                        <a class=""><span class="fa fa-angle-down glyphicon-right"></span></a>
-                    </div>
-                    <div class="clearfix"></div>
-                </h3>
+    <div class="col-sm-6 panel-left">
+        <form role="form">
+            <div class="form-group">
+                <label for="textInput">Text Input</label>
+                <input type="text" class="form-control" id="textInput" placeholder="Text Input" />
             </div>
-
-            <div class="panel-body">
-                <div>
-                    <div class="pull-left">
-                        <select class="form-control">
-                            <option value="">Visits</option>
-                        </select>
+            
+            <div class="form-group">
+                <label for="textArea">Textarea</label>
+                <textarea class="form-control" id="textArea"></textarea>
+            </div>
+            
+            <!--div class="form-group">
+                <label for="select">File input</label>
+                <input type="file" id="exampleInputFile" />
+                <p class="help-block">Example block-level help text here.</p>
+            </div-->
+            
+            <div class="row">
+                <div class="col-lg-4">
+                    Checkbox (stacked)
+                    <div class="checkbox">
+                        <label><input type="checkbox" /> Check me out</label>
+                        <label><input type="checkbox" /> Check me out</label>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" /> Check me out
+                        </label>
                     </div>
                 </div>
             </div>
-        </div>
+            
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
     </div>
-
+    
     <div class="col-sm-6 panel-right">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    <span class="glyphicon glyphicon-signal glyphicon-left"></span>
-                    HDD Usage
-                    <span class="glyphicon glyphicon-collapse-down glyphicon-right pull-right"></span>
-                    <a class=""><span class="fa fa-angle-down glyphicon-right"></span></a>
-                </h3>
+        <form role="form">
+            <div class="form-group">
+                <label for="select">Select</label>
+                <select class="form-control" id="select">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
             </div>
-
-            <div class="panel-body">
-                Panel content
+            
+            <div class="form-group">
+                <label for="selectMultiple">Select (Multiple)</label>
+                <select multiple class="form-control" id="selectMultiple">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
             </div>
-        </div>
+            
+            <div class="form-group">
+                <label for="exampleInputFile">File input</label>
+                <input type="file" id="exampleInputFile" />
+                <p class="help-block">Example block-level help text here.</p>
+            </div>
+            
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" /> Check me out
+                </label>
+            </div>
+            
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
     </div>
-
-    <div class="clearfix"></div>
-</div>
-
-<div class="row-panel">
-    <div class="col-sm-4 panel-left">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    <span class="fa fa-bar-chart-o glyphicon-left"></span>
-                    Audience Overview
-                    <div class="pull-right">
-                        <a class=""><span class="fa fa-angle-down glyphicon-right"></span></a>
-                    </div>
-                </h3>
-            </div>
-
-            <div class="panel-body">
-                Panel content
-            </div>
-        </div>
-    </div>
-
-    <div class="col-sm-4 panel-center">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    <span class="glyphicon glyphicon-signal glyphicon-left"></span>
-                    HDD Usage
-                    <a class=""><span class="fa fa-angle-down glyphicon-right"></span></a>
-                </h3>
-            </div>
-
-            <div class="panel-body">
-                Panel content
-            </div>
-        </div>
-    </div>
-
-    <div class="col-sm-4 panel-right">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    <span class="glyphicon glyphicon-signal glyphicon-left"></span>
-                    HDD Usage
-                    <span class="glyphicon glyphicon-collapse-down glyphicon-right pull-right"></span>
-                </h3>
-            </div>
-
-            <div class="panel-body">
-                Panel content
-            </div>
-        </div>
-    </div>
-
-    <div class="clearfix"></div>
-</div>
-
-<div class="row-panel">
-    <div class="col-sm-3 panel-left panel-theme">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    <span class="fa fa-bar-chart-o glyphicon-left"></span>
-                    Audience Overview
-                    <div class="pull-right">
-                        <a class=""><span class="fa fa-angle-down glyphicon-right"></span></a>
-                    </div>
-                </h3>
-            </div>
-
-            <div class="panel-body">
-                Panel content
-            </div>
-        </div>
-    </div>
-
-    <div class="col-sm-3 panel-center">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    <span class="glyphicon glyphicon-signal glyphicon-left"></span>
-                    HDD Usage
-                    <span class="glyphicon glyphicon-collapse-down glyphicon-right pull-right"></span>
-                </h3>
-            </div>
-
-            <div class="panel-body">
-                Panel content
-            </div>
-        </div>
-    </div>
-
-    <div class="col-sm-3 panel-center">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    <span class="glyphicon glyphicon-signal glyphicon-left"></span>
-                    HDD Usage
-                    <span class="glyphicon glyphicon-collapse-down glyphicon-right pull-right"></span>
-                </h3>
-            </div>
-
-            <div class="panel-body">
-                Panel content
-            </div>
-        </div>
-    </div>
-
-    <div class="col-sm-3 panel-right">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    <span class="glyphicon glyphicon-signal glyphicon-left"></span>
-                    HDD Usage
-                    <span class="glyphicon glyphicon-collapse-down glyphicon-right pull-right"></span>
-                </h3>
-            </div>
-
-            <div class="panel-body">
-                Panel content
-            </div>
-        </div>
-    </div>
-
-    <div class="clearfix"></div>
-</div>
-
-<div class="row-panel">
-    <div class="col-sm-12 panel-full">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">
-                    <span class="fa fa-bar-chart-o glyphicon-left"></span>
-                    Audience Overview
-                    <div class="pull-right">
-                        <a class=""><span class="fa fa-angle-down glyphicon-right"></span></a>
-                    </div>
-                </h3>
-            </div>
-
-            <div class="panel-body">
-                Panel content
-            </div>
-        </div>
-    </div>
-
+    
     <div class="clearfix"></div>
 </div>

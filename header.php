@@ -119,7 +119,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                                <span class="glyphicon glyphicon-user glyphicon-left"></span>
+                                <span class="glyphicon glyphicon-user icon-left"></span>
                                 <?php echo $_SERVER['REMOTE_ADDR']; ?>
                                 <b class="caret"></b>
                             </a>
@@ -144,19 +144,19 @@
                     </li>
                     <li class="active">
                         <a class="" href="#">
-                            <span class="fa fa-clock-o glyphicon-left"></span>
+                            <span class="fa fa-clock-o icon-left"></span>
                             Timeline
                         </a>
                     </li>
                     <li class="">
                         <a class="" href="#">
-                            <span class="fa fa-bar-chart-o glyphicon-left"></span>
+                            <span class="fa fa-bar-chart-o icon-left"></span>
                             Page Statistics
                         </a>
                     </li>
                     <li class="">
                         <a class="" href="#">
-                            <span class="fa fa-exchange glyphicon-left"></span>
+                            <span class="fa fa-exchange icon-left"></span>
                             Sidebar Widgets
                         </a>
                     </li>
@@ -165,37 +165,37 @@
                     </li>
                     <li class="">
                         <a class="" href="#">
-                            <span class="fa fa-wechat glyphicon-left"></span>
+                            <span class="fa fa-wechat icon-left"></span>
                             Messages & Chat
                         </a>
                     </li>
                     <li class="">
                         <a class="" href="#">
-                            <span class="fa fa-image glyphicon-left"></span>
+                            <span class="fa fa-image icon-left"></span>
                             Gallery & Thumbs
                         </a>
                     </li>
                     <li class="">
                         <a class="" href="#">
-                            <span class="fa fa-th-large glyphicon-left"></span>
+                            <span class="fa fa-th-large icon-left"></span>
                             Tiles
                         </a>
                     </li>
                     <li class="">
                         <a class="" href="#">
-                            <span class="fa fa-keyboard-o glyphicon-left"></span>
+                            <span class="fa fa-keyboard-o icon-left"></span>
                             Icons & Buttons
                         </a>
                     </li>
                     <li class="">
                         <a class="" href="#">
-                            <span class="fa fa-file-code-o glyphicon-left"></span>
+                            <span class="fa fa-file-code-o icon-left"></span>
                             Bootstrap Components
                         </a>
                     </li>
                     <li class="">
                         <a class="" href="#">
-                            <span class="fa fa-list-alt glyphicon-left"></span>
+                            <span class="fa fa-list-alt icon-left"></span>
                             Grid
                         </a>
                     </li>
@@ -204,19 +204,19 @@
                     </li>
                     <li class="active">
                         <a class="" href="#">
-                            <span class="fa fa-clock-o glyphicon-left"></span>
+                            <span class="fa fa-clock-o icon-left"></span>
                             Timeline
                         </a>
                     </li>
                     <li class="">
                         <a class="" href="#">
-                            <span class="fa fa-bar-chart-o glyphicon-left"></span>
+                            <span class="fa fa-bar-chart-o icon-left"></span>
                             Page Statistics
                         </a>
                     </li>
                     <li class="">
                         <a class="" href="#">
-                            <span class="fa fa-exchange glyphicon-left"></span>
+                            <span class="fa fa-exchange icon-left"></span>
                             Sidebar Widgets
                         </a>
                     </li>

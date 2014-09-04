@@ -1,7 +1,7 @@
 body {
     font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
     /*font-family: 'Open Sans',sans-serif;*/
-    font-size: 13px;
+    font-size: 12px;
 }
 
 a {
@@ -228,10 +228,10 @@ a:focus {
     overflow: auto;
 }
 
-.glyphicon-left {
+.icon-left {
     margin-right: 3px;
 }
-.glyphicon-right {
+.icon-right {
     margin-left: 3px;
 }
 
@@ -282,7 +282,19 @@ a:focus {
     padding: 10px;
 }
 
-
+.form-control {
+    border-radius: 0;
+    box-shadow: none;
+    height: auto;
+    font-size: 12px;
+    padding: 6px 8px;
+}
+select.form-control {
+    padding: 5.5px 8px;   
+}
+.form-control:focus {
+    box-shadow: none;
+}
 
 
 

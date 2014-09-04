@@ -122,7 +122,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                                <span class="glyphicon glyphicon-user glyphicon-left"></span>
+                                <span class="glyphicon glyphicon-user icon-left"></span>
                                 <?php $user_fullname = 'Dzaky Nazran Alfian'; //hardcode ?>
                                 <?php echo $user_fullname; ?>
                                 <b class="caret"></b>

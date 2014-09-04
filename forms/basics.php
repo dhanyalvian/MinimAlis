@@ -46,9 +46,9 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">
-                        <span class="glyphicon glyphicon-signal glyphicon-left"></span>
+                        <span class="glyphicon glyphicon-signal icon-left"></span>
                         Audience Overview
-                        <span class="glyphicon glyphicon-collapse-down glyphicon-right pull-right"></span>
+                        <span class="glyphicon glyphicon-collapse-down icon-right pull-right"></span>
                     </h3>
                 </div>
 
@@ -62,9 +62,9 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">
-                        <span class="glyphicon glyphicon-signal glyphicon-left"></span>
+                        <span class="glyphicon glyphicon-signal icon-left"></span>
                         HDD Usage
-                        <span class="glyphicon glyphicon-collapse-down glyphicon-right pull-right"></span>
+                        <span class="glyphicon glyphicon-collapse-down icon-right pull-right"></span>
                     </h3>
                 </div>
 
@@ -80,7 +80,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">
-                        <span class="glyphicon glyphicon-ok glyphicon-left"></span>
+                        <span class="glyphicon glyphicon-ok icon-left"></span>
                         Audience Overview
                     </h3>
                 </div>
@@ -97,9 +97,9 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">
-                        <span class="glyphicon glyphicon-signal glyphicon-left"></span>
+                        <span class="glyphicon glyphicon-signal icon-left"></span>
                         Audience Overview
-                        <span class="glyphicon glyphicon-collapse-down glyphicon-right pull-right"></span>
+                        <span class="glyphicon glyphicon-collapse-down icon-right pull-right"></span>
                     </h3>
                 </div>
 
@@ -113,9 +113,9 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">
-                        <span class="glyphicon glyphicon-signal glyphicon-left"></span>
+                        <span class="glyphicon glyphicon-signal icon-left"></span>
                         HDD Usage
-                        <span class="glyphicon glyphicon-collapse-down glyphicon-right pull-right"></span>
+                        <span class="glyphicon glyphicon-collapse-down icon-right pull-right"></span>
                     </h3>
                 </div>
 
@@ -129,9 +129,9 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">
-                        <span class="glyphicon glyphicon-signal glyphicon-left"></span>
+                        <span class="glyphicon glyphicon-signal icon-left"></span>
                         HDD Usage
-                        <span class="glyphicon glyphicon-collapse-down glyphicon-right pull-right"></span>
+                        <span class="glyphicon glyphicon-collapse-down icon-right pull-right"></span>
                     </h3>
                 </div>
 
@@ -147,9 +147,9 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">
-                        <span class="glyphicon glyphicon-signal glyphicon-left"></span>
+                        <span class="glyphicon glyphicon-signal icon-left"></span>
                         Audience Overview
-                        <span class="glyphicon glyphicon-collapse-down glyphicon-right pull-right"></span>
+                        <span class="glyphicon glyphicon-collapse-down icon-right pull-right"></span>
                     </h3>
                 </div>
 
@@ -163,9 +163,9 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">
-                        <span class="glyphicon glyphicon-signal glyphicon-left"></span>
+                        <span class="glyphicon glyphicon-signal icon-left"></span>
                         HDD Usage
-                        <span class="glyphicon glyphicon-collapse-down glyphicon-right pull-right"></span>
+                        <span class="glyphicon glyphicon-collapse-down icon-right pull-right"></span>
                     </h3>
                 </div>
 
@@ -179,9 +179,9 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">
-                        <span class="glyphicon glyphicon-signal glyphicon-left"></span>
+                        <span class="glyphicon glyphicon-signal icon-left"></span>
                         HDD Usage
-                        <span class="glyphicon glyphicon-collapse-down glyphicon-right pull-right"></span>
+                        <span class="glyphicon glyphicon-collapse-down icon-right pull-right"></span>
                     </h3>
                 </div>
 
@@ -195,9 +195,9 @@
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <h3 class="panel-title">
-                        <span class="glyphicon glyphicon-signal glyphicon-left"></span>
+                        <span class="glyphicon glyphicon-signal icon-left"></span>
                         HDD Usage
-                        <span class="glyphicon glyphicon-collapse-down glyphicon-right pull-right"></span>
+                        <span class="glyphicon glyphicon-collapse-down icon-right pull-right"></span>
                     </h3>
                 </div>
 

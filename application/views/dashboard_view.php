@@ -44,8 +44,8 @@
             <div class="panel-heading">
                 <div class="panel-title">
                     <div class="pull-left">
-                        <span class="fa fa-bar-chart-o glyphicon-left"></span>
-                        Audience Overview
+                        <span class="fa fa-shopping-cart icon-left"></span>
+                        Orders
                     </div>
                     
                     <div class="pull-right">
@@ -67,8 +67,8 @@
             <div class="panel-heading">
                 <div class="panel-title">
                     <div class="pull-left">
-                        <span class="fa fa-hdd-o glyphicon-left"></span>
-                        HDD Usage
+                        <span class="fa fa-dollar icon-left"></span>
+                        Amount
                     </div>
                     
                     <div class="pull-right">
@@ -94,11 +94,11 @@
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <div class="pull-left">
-                        <span class="fa fa-tags glyphicon-left"></span>
+                        <span class="fa fa-tags icon-left"></span>
                         Best Sellers
                     </div>
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-down icon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>
@@ -122,11 +122,11 @@
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <div class="pull-left">
-                        <span class="fa fa-bar-chart-o glyphicon-left"></span>
+                        <span class="fa fa-bar-chart-o icon-left"></span>
                         Audience Overview
                     </div>
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-down icon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>
@@ -144,12 +144,12 @@
                 <div class="panel-heading">
                     <h3 class="panel-title">
                         <div class="pull-left">
-                            <span class="fa fa-clock-o glyphicon-left"></span>
+                            <span class="fa fa-clock-o icon-left"></span>
                             Collapsible Group Item #1
                         </div>
                         
                         <div class="pull-right">
-                            <a class="toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                            <a class="toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="fa fa-angle-down icon-right"></span></a>
                         </div>
                         
                         <div class="clearfix"></div>
@@ -167,12 +167,12 @@
                 <div class="panel-heading">
                     <h3 class="panel-title">
                         <div class="pull-left">
-                            <span class="fa fa-calendar glyphicon-left"></span>
+                            <span class="fa fa-calendar icon-left"></span>
                             Collapsible Group Item #2
                         </div>
                         
                         <div class="pull-right">
-                            <a class="toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                            <a class="toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="fa fa-angle-down icon-right"></span></a>
                         </div>
                         
                         <div class="clearfix"></div>
@@ -190,12 +190,12 @@
                 <div class="panel-heading">
                     <h3 class="panel-title">
                         <div class="pull-left">
-                            <span class="fa fa-cloud-download glyphicon-left"></span>
+                            <span class="fa fa-cloud-download icon-left"></span>
                             Collapsible Group Item #3
                         </div>
                         
                         <div class="pull-right">
-                            <a class="toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                            <a class="toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="fa fa-angle-down icon-right"></span></a>
                         </div>
                         
                         <div class="clearfix"></div>
@@ -220,12 +220,12 @@
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <div class="pull-left">
-                        <span class="fa fa-bar-chart-o glyphicon-left"></span>
+                        <span class="fa fa-bar-chart-o icon-left"></span>
                         Audience Overview
                     </div>
                     
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-down icon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>
@@ -248,12 +248,12 @@
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <div class="pull-left">
-                        <span class="fa fa-bar-chart-o glyphicon-left"></span>
+                        <span class="fa fa-bar-chart-o icon-left"></span>
                         Audience Overview
                     </div>
                     
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-down icon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>
@@ -276,12 +276,12 @@
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <div class="pull-left">
-                        <span class="fa fa-bar-chart-o glyphicon-left"></span>
+                        <span class="fa fa-bar-chart-o icon-left"></span>
                         Audience Overview
                     </div>
                     
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-down icon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>
@@ -304,12 +304,12 @@
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <div class="pull-left">
-                        <span class="fa fa-bar-chart-o glyphicon-left"></span>
+                        <span class="fa fa-bar-chart-o icon-left"></span>
                         Audience Overview
                     </div>
                     
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-down icon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>
@@ -336,12 +336,12 @@
             <div class="panel-heading">
                 <h3 class="panel-title">
                     <div class="pull-left">
-                        <span class="fa fa-bar-chart-o glyphicon-left"></span>
+                        <span class="fa fa-bar-chart-o icon-left"></span>
                         Audience Overview
                     </div>
                     
                     <div class="pull-right">
-                        <a class="toggle"><span class="fa fa-angle-down glyphicon-right"></span></a>
+                        <a class="toggle"><span class="fa fa-angle-down icon-right"></span></a>
                     </div>
                     <div class="clearfix"></div>
                 </h3>

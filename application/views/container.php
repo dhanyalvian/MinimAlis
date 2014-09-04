@@ -36,7 +36,7 @@
                             <li class="<?php echo $_navActive; ?>">
                                 <a href="<?php echo $_navUrl; ?>">
                                     <?php if ($_navIcon): ?>
-                                        <span class="fa <?php echo $_navIcon; ?> glyphicon-left"></span>
+                                        <span class="fa <?php echo $_navIcon; ?> icon-left"></span>
                                     <?php endif; ?>
                                     <?php echo $_navTitle; ?>
                                 </a>
