@@ -20,7 +20,7 @@
             <div class="<?php echo $panelPosition; ?> col-lg-<?php echo $colLg; ?> container-fluid">
                 <div class="panel">
                     <div class="do-icon">
-                        <span class="fa <?php echo $row['icon']; ?>"></span>
+                        <span class="fa <?php echo $row['icon']; ?> fa-fw"></span>
                     </div>
 
                     <div class="do-value container-fluid">

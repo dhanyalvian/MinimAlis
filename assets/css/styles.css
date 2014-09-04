@@ -51,7 +51,7 @@ a:focus {
     top: 44px;
     left: 0;
     bottom: 0;
-    display: block;
+    display: none;
     z-index: 100;
     background-color: #f0f0f0;
     height: 100%;
@@ -93,7 +93,8 @@ a:focus {
     padding-bottom: 0;
 }
 .page-content .content {
-    margin-left: 192px;
+    /*margin-left: 192px;*/
+    margin-left: 0;
 }
 
 .header {
@@ -257,20 +258,20 @@ a:focus {
     background-color: #333333;
     color: #ffffff;
     font-size: 40px;
-    padding: 8px 15px;
-    min-width: 75px;
+    padding: 4px 10px;
+/*    min-width: 75px;*/
     text-align: center;
 }
 .dashboard-overview .do-value {
-    margin-left: 75px;
+    margin-left: 72px;
 }
 .dashboard-overview .do-value .total {
-    padding: 6px 10px 2px 10px;
-    font-size: 26px;
+    padding: 6px 8px 2px;
+    font-size: 22px;
     overflow: hidden;
 }
 .dashboard-overview .do-value .title {
-    padding: 2px 10px 6px 10px;
+    padding: 0 8px 6px;
     overflow: hidden;
 }
 
@@ -331,4 +332,8 @@ a:focus {
 .list-group > .list-group-item:last-child {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+}
+
+.display_none {
+    display: none;
 }

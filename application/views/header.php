@@ -73,7 +73,9 @@
                 <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
                         <li class="toggle">
-                            <a id="toggle-navbar-side"><span class="fa fa-th-large"></span></a>
+                            <a id="toggle-navbar-side" data-toggle="tooltip" data-placement="bottom" title="Show/Hide&nbsp;Sidebar">
+                                <span class="fa fa-th-large"></span>
+                            </a>
                         </li>
                         
                         <?php
