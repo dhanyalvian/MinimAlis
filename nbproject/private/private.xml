@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>assets/js/core/script.js</url>
+            <bookmark id="1">
+                <name/>
+                <line>6</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/var/www/minimalis/application/config/testing/config.php</file>
@@ -21,6 +30,7 @@
             <file>file:/var/www/minimalis/application/controllers/dashboard.php</file>
             <file>file:/var/www/minimalis/assets/js/core/flot.js</file>
             <file>file:/var/www/minimalis/application/config/config_app.php</file>
+            <file>file:/var/www/minimalis/application/views/forms/basic_forms_view.php</file>
         </group>
     </open-files>
 </project-private>

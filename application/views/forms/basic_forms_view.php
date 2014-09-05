@@ -1,5 +1,9 @@
 <div class="row-panel">
-    <div class="col-sm-6 panel-left">
+    <div class="col-md-12 heading_title">
+        Form Elements
+    </div>
+    
+    <div class="col-md-6 panel-left">
         <form role="form">
             <div class="form-group">
                 <label for="textInput">Text Input</label>
@@ -11,35 +15,41 @@
                 <textarea class="form-control" id="textArea"></textarea>
             </div>
             
-            <!--div class="form-group">
-                <label for="select">File input</label>
-                <input type="file" id="exampleInputFile" />
-                <p class="help-block">Example block-level help text here.</p>
-            </div-->
-            
             <div class="row">
-                <div class="col-lg-4">
-                    Checkbox (stacked)
+                <div class="col-lg-6">
+                    <label>Checkbox (stacked)</label>
                     <div class="checkbox">
-                        <label><input type="checkbox" /> Check me out</label>
-                        <label><input type="checkbox" /> Check me out</label>
+                        <label><input type="checkbox" /> Option 1</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" /> Option 2</label>
                     </div>
                 </div>
                 
-                <div class="col-lg-4">
-                    <div class="checkbox">
-                        <label>
-                            <input type="checkbox" /> Check me out
-                        </label>
+                <div class="col-lg-6">
+                    <label>Radio (stacked)</label>
+                    <div class="radio">
+                        <label><input type="radio" name="radio" /> Option 1</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="radio" /> Option 2</label>
                     </div>
                 </div>
             </div>
             
-            <button type="submit" class="btn btn-default">Submit</button>
+            <div class="btn-group">
+                <button class="btn btn-default btn-sm" type="button">
+                    Submit
+                </button>
+                
+                <button class="btn btn-default btn-sm" type="reset">
+                    Reset
+                </button>
+            </div>
         </form>
     </div>
     
-    <div class="col-sm-6 panel-right">
+    <div class="col-md-6 panel-right">
         <form role="form">
             <div class="form-group">
                 <label for="select">Select</label>
@@ -68,15 +78,15 @@
                 <input type="file" id="exampleInputFile" />
                 <p class="help-block">Example block-level help text here.</p>
             </div>
-            
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox" /> Check me out
-                </label>
-            </div>
-            
-            <button type="submit" class="btn btn-default">Submit</button>
         </form>
+    </div>
+    
+    <div class="clearfix"></div>
+</div>
+
+<div class="row-panel">
+    <div class="col-md-12 heading_title">
+        Validations
     </div>
     
     <div class="clearfix"></div>
