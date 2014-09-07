@@ -89,5 +89,51 @@
         Validations
     </div>
     
+    <div class="col-md-6 panel-left">
+        <form role="form">
+            <div class="form-group has-success">
+                <input type="text" class="form-control" id="textInput" placeholder="Text Input" />
+                <span class="help-block">Success</span>
+            </div>
+            
+            <div class="form-group has-warning">
+                <input type="text" class="form-control" id="textInput" placeholder="Text Input" />
+                <span class="help-block">Warning</span>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6">
+                    <label>Checkbox (stacked)</label>
+                    <div class="checkbox">
+                        <label><input type="checkbox" /> Option 1</label>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox" /> Option 2</label>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <label>Radio (stacked)</label>
+                    <div class="radio">
+                        <label><input type="radio" name="radio" /> Option 1</label>
+                    </div>
+                    <div class="radio">
+                        <label><input type="radio" name="radio" /> Option 2</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="btn-group">
+                <button class="btn btn-default btn-sm" type="button">
+                    Submit
+                </button>
+                
+                <button class="btn btn-default btn-sm" type="reset">
+                    Reset
+                </button>
+            </div>
+        </form>
+    </div>
+    
     <div class="clearfix"></div>
 </div>

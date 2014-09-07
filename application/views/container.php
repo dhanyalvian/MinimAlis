@@ -94,37 +94,36 @@
                     </button>
                     <button type="button" class="btn btn-default btn-sm">Edit</button>
                 </div-->
-                <div class="btn-group">
-                    <button type="button" class="btn btn-default btn-sm">
-                        Submit
-                    </button>
-
-                    <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
-                        Action
-                        <span class="caret"></span>
-                    </button>
-
-                    <ul class="dropdown-menu dropdown-menu-right" role="menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </div>
-
+                
                 <div class="btn-group btn-theme">
-                    <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">
-                        Action <span class="caret"></span>
-                    </button>
-
-                    <ul class="dropdown-menu dropdown-menu-right" role="menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
+                    <select class="form-control">
+                        <option value="">All Store Views</option>
+                        <optgroup label="Main Website"></optgroup>
+                        <optgroup label="&nbsp;&nbsp;&nbsp;Baby">
+                            <option value="1">&nbsp;&nbsp;&nbsp;&nbsp;ENG</option>
+                            <option value="2">&nbsp;&nbsp;&nbsp;&nbsp;IND</option>
+                            <option value="3">&nbsp;&nbsp;&nbsp;&nbsp;English</option>
+                            <option value="4">&nbsp;&nbsp;&nbsp;&nbsp;Mobile</option>
+                        </optgroup>
+                        <optgroup label="&nbsp;&nbsp;&nbsp;Deals">
+                            <option value="7">&nbsp;&nbsp;&nbsp;&nbsp;Deals English</option>
+                            <option value="8">&nbsp;&nbsp;&nbsp;&nbsp;Deals Indonesia</option>
+                        </optgroup>
+                        <optgroup label="&nbsp;&nbsp;&nbsp;Home">
+                            <option value="5">&nbsp;&nbsp;&nbsp;&nbsp;Home English</option>
+                            <option value="6">&nbsp;&nbsp;&nbsp;&nbsp;Home Indonesia</option>
+                        </optgroup>
+                    </select>
+                </div>
+                
+                <div class="btn-group btn-theme">
+                    <select class="form-control">
+                        <option value="24h">Last 24 Hours</option>
+                        <option value="7d">Last 7 Days</option>
+                        <option value="1m">Current Month</option>
+                        <option value="1y">YTD</option>
+                        <option value="2y">2YTD</option>
+                    </select>
                 </div>
             </div>
             

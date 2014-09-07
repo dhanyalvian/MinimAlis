@@ -74,7 +74,7 @@
                     <ul class="nav navbar-nav">
                         <li class="toggle">
                             <a id="toggle-navbar-side" data-toggle="tooltip" data-placement="bottom" title="Show/Hide&nbsp;Sidebar">
-                                <span class="fa fa-th-large"></span>
+                                <span class="fa fa-th-large fa-fw"></span>
                             </a>
                         </li>
                         
@@ -122,7 +122,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="dropdown">
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                                <span class="glyphicon glyphicon-user icon-left"></span>
+                                <span class="fa fa-user fa-fw icon-left"></span>
                                 <?php $user_fullname = 'Dzaky Nazran Alfian'; //hardcode ?>
                                 <?php echo $user_fullname; ?>
                                 <b class="caret"></b>
