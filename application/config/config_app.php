@@ -9,7 +9,7 @@ $config['css_path'] = 'assets/css/';
 $config['css_file'] = array (
     'bootstrap',
     'font-awesome.min',
-    'styles',
+    'minimalis',
     'themes',
 );
 $config['js_path_core'] = 'assets/js/core/';
@@ -21,7 +21,7 @@ $config['js_file_bottom'] = array (
     'flot',
     'flot.resize',
     'flot.categories',
-    'script',
+    'minimalis',
 );
 $config['home_url'] = 'dashboard';
 $config['header_skin'] = 'silver'; //black or silver

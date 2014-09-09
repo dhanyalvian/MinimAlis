@@ -1,8 +1,9 @@
 $(document).ready(function() {
-    $('#toggle-navbar-side').tooltip({
-        animation: true,
-        
-    });
+    if (pageController != 'dashboard') {
+        $('#toggle-navbar-side').tooltip({
+            animation: true,
+        });
+    }
     
     var sideBarShow = function() {
         $('.navbar-side').show();

@@ -20,6 +20,7 @@ a:focus {
 .navbar {
     margin-bottom: 0;
     min-height: 44px;
+    border-bottom: 0;
 }
 .navbar > .container-fluid {
     padding-left: 15px;
@@ -29,9 +30,16 @@ a:focus {
     height: 44px;
 }
 .navbar-brand {
+    color: #dddddd;
     padding: 12px 20px;
+    height: 44px;
+    min-width: 150px;
+}
+.navbar-brand:hover {
+    color: #666666;
 }
 .navbar-nav > li > a {
+    font-size: 13px;
     padding-top: 12px;
     padding-bottom: 12px;
 }
@@ -40,10 +48,6 @@ a:focus {
 }
 .navbar-inverse {
     border-bottom: 0;
-}
-.navbar-brand {
-    height: 44px;
-    min-width: 150px; 
 }
 
 .navbar-side {
@@ -286,7 +290,7 @@ a:focus {
     text-transform: uppercase;
     border-bottom: 1px solid #cccccc;
     padding: 3px 0;
-    margin-top: 2px;
+    margin-top: 10px;
     margin-bottom: 10px;
     font-size: 16px;
 }
@@ -375,14 +379,19 @@ select.form-control {
 }
 
 .has-feedback > .form-control-feedback {
-    height: 30px;
-    line-height: 0;
+    display: block;
+    height: 29px;
+    line-height: 29px;
     position: absolute;
     right: 0;
     text-align: center;
-    top: 36px;
-    width: 30px;
+    top: 22px;
+    width: 29px;
     z-index: 2;
+}
+
+.input-group-addon {
+    border-radius: 0;
 }
 
 .display_none {
