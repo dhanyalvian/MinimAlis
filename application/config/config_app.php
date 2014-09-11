@@ -10,7 +10,7 @@ $config['css_file'] = array (
     'bootstrap',
     'font-awesome.min',
     'minimalis',
-    'themes',
+    'minimalis-default',
 );
 $config['js_path_core'] = 'assets/js/core/';
 $config['js_path_module'] = 'assets/js/module/';

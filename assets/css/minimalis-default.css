@@ -1,0 +1,147 @@
+a {
+    color: #333333;
+}
+
+.navbar {
+    background-color: #333333;
+}
+.navbar .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar .navbar-nav > li > a:hover {
+    background-color: #080808;
+}
+.navbar .navbar-nav > li.active > a {
+    background-color: #ffffff;
+    color: #000000;
+}
+.navbar .navbar-nav > li.active > a:hover {
+    background-color: #080808;
+    color: #ffffff;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #333333;
+}
+.nav .open > a,
+.nav .open > a:hover, .nav .open > a:focus {
+    background-color: #080808;
+    border-color: #080808;
+}
+.navbar-brand {
+    color: #dddddd;
+}
+.navbar-brand:hover {
+    color: #666666;
+}
+
+.navbar-side {
+    background-color: #f5f5f5;
+}
+.navbar-side > .nav > li > a {
+    color: #333333;
+    border-bottom: 1px solid #f5f5f5;
+}
+.navbar-side > .nav > li > a:hover,
+.navbar-side > .nav > li.active > a {
+    background-color: #dfdfdf;
+    color: #000000;
+}
+.navbar-side > .nav > li.subnav > a,
+.navbar-side > .nav > li.subnav > a:hover {
+    background-color: #f5f5f5;
+}
+
+.dropdown-menu {
+    background-color: #080808;
+    border: 1px solid #080808;
+}
+.dropdown-menu > li > a {
+    color: #cccccc;
+}
+.dropdown-menu > li > a:hover {
+    color: #000000;
+}
+.dropdown-menu .divider {
+    background-color: #222222;
+}
+
+.header {
+    background-color: #ffffff;
+}
+
+.breadcrumb > li.active > a {
+    color: #333333;
+}
+.breadcrumb > li + li:before {
+    color: #999999;
+}
+
+.btn-group .dropdown-menu {
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+.btn-group .dropdown-menu .divider {
+    background-color: #e5e5e5;
+}
+.btn-group .dropdown-menu > li > a {
+    color: #333333;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: #dddddd;
+}
+
+.btn-theme > .btn-default {
+    background-color: #333333;
+    border: 1px solid #333333;
+    color: #f5f5f5;
+}
+.btn-theme > .btn-default:hover {
+    background-color: #080808;
+}
+
+.panel-theme .panel-default {
+    border-color: #333333;
+}
+.panel-theme .panel-default > .panel-heading {
+    background-color: #333333;
+    border-color: #333333;
+    color: #f5f5f5;
+}
+.panel-theme .panel-default > .panel-heading a {
+    color: #f5f5f5;
+}
+.panel-default > .panel-heading a {
+    color: #333333;
+}
+.panel-default > .panel-heading a span.fa:hover {
+    background-color: #dddddd;
+    color: #333333;
+}
+.panel-theme > .panel-default > .panel-heading a span.fa:hover {
+    background-color: #f5f5f5;
+    color: #333333;
+}
+.panel-theme .list-group-item {
+    color: #333333;
+}
+
+.dashboard-overview .panel {
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    border: 1px solid #333333;
+}
+.dashboard-overview .do-icon {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    border: 1px solid #dddddd;
+}
+
+.heading_title {
+    border-bottom: 1px solid #cccccc;
+}
+
