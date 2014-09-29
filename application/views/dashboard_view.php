@@ -17,7 +17,7 @@
             $currency = $row['currency'] ? $row['currency'] : '';
             $total = number_format($row['total']);
             ?>
-            <div class="<?php echo $panelPosition; ?> col-lg-<?php echo $colLg; ?> container-fluid">
+            <div class="col-lg-<?php echo $colLg; ?> container-fluid">
                 <div class="panel">
                     <div class="do-icon">
                         <span class="fa <?php echo $row['icon']; ?> fa-fw"></span>
@@ -33,13 +33,11 @@
             </div>
             <?php $x++; ?>
         <?php endforeach; ?>
-        
-        <div class="clearfix"></div>
     </div>
 <?php endif; ?>
 
 <div class="row-panel">
-    <div class="col-sm-6 panel-left panel-theme">
+    <div class="col-sm-6 panel-theme">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <div class="panel-title">
@@ -62,7 +60,7 @@
         </div>
     </div>
 
-    <div class="col-sm-6 panel-right panel-theme">
+    <div class="col-sm-6 panel-theme">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <div class="panel-title">
@@ -84,12 +82,10 @@
             </div>
         </div>
     </div>
-
-    <div class="clearfix"></div>
 </div>
 
 <div class="row-panel">
-    <div class="col-sm-4 panel-left panel-theme">
+    <div class="col-sm-4 panel-theme">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">
@@ -117,7 +113,7 @@
         </div>
     </div>
 
-    <div class="col-sm-4 panel-center">
+<!--    <div class="col-sm-4">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">
@@ -136,9 +132,66 @@
                 Panel content
             </div>
         </div>
-    </div>
+    </div>-->
 
-    <div class="col-sm-4 panel-right panel-theme">
+    <div class="col-sm-4 panel-theme">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <div class="pull-left">
+                        <span class="fa fa-tags icon-left"></span>
+                        Best Sellers
+                    </div>
+                    <div class="pull-right">
+                        <a class="toggle"><span class="fa fa-angle-down icon-right"></span></a>
+                    </div>
+                    <div class="clearfix"></div>
+                </h3>
+            </div>
+            
+            <?php if (is_array($best_sellers) && count($best_sellers) > 0): ?>
+                <div class="list-group">
+                    <?php foreach ($best_sellers as $key => $value): ?>
+                        <a class="list-group-item">
+                            <?php echo $value; ?>
+                            <span class="badge"><?php echo number_format($key); ?></span>
+                        </a>
+                    <?php endforeach; ?>
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
+    
+    <div class="col-sm-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    <div class="pull-left">
+                        <span class="fa fa-tags icon-left"></span>
+                        Best Sellers
+                    </div>
+                    <div class="pull-right">
+                        <a class="toggle"><span class="fa fa-angle-down icon-right"></span></a>
+                    </div>
+                    <div class="clearfix"></div>
+                </h3>
+            </div>
+            
+            <?php if (is_array($best_sellers) && count($best_sellers) > 0): ?>
+                <div class="list-group">
+                    <?php foreach ($best_sellers as $key => $value): ?>
+                        <a class="list-group-item">
+                            <?php echo $value; ?>
+                            <span class="badge"><?php echo number_format($key); ?></span>
+                        </a>
+                    <?php endforeach; ?>
+                </div>
+            <?php endif; ?>
+        </div>
+    </div>
+    
+
+    <!--div class="col-sm-4 panel-theme">
         <div class="panel-group" id="accordion">
             <div class="panel panel-default">
                 <div class="panel-heading">
@@ -209,13 +262,13 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div-->
 
-    <div class="clearfix"></div>
+    <!--<div class="clearfix"></div>-->
 </div>
 
 <div class="row-panel">
-    <div class="col-sm-3 panel-left panel-theme">
+    <div class="col-sm-3 panel-theme">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">
@@ -243,7 +296,7 @@
         </div>
     </div>
 
-    <div class="col-sm-3 panel-center">
+    <div class="col-sm-3">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">
@@ -271,7 +324,7 @@
         </div>
     </div>
 
-    <div class="col-sm-3 panel-center">
+    <div class="col-sm-3">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">
@@ -299,7 +352,7 @@
         </div>
     </div>
 
-    <div class="col-sm-3 panel-right">
+    <div class="col-sm-3">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">
@@ -326,8 +379,6 @@
             </div>
         </div>
     </div>
-
-    <div class="clearfix"></div>
 </div>
 
 <div class="row-panel">
@@ -352,6 +403,4 @@
             </div>
         </div>
     </div>
-
-    <div class="clearfix"></div>
 </div>

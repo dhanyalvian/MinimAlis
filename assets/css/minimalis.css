@@ -46,7 +46,7 @@ a:focus {
 
 .navbar-side {
     position: absolute;
-    top: 44px;
+    top: 40px;
     left: 0;
     bottom: 0;
     display: none;
@@ -132,9 +132,32 @@ a:focus {
 }
 
 .row-panel {
+    clear: both;
     margin-bottom: 15px;
 }
-.row-panel .col-sm-6 {
+.row-panel:before,
+.row-panel:after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+.row-panel > div:first-child {
+    padding-left: 0;
+    padding-right: 7.5px;
+}
+.row-panel > div {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+.row-panel > div:last-child {
+    padding-left: 7.5px;
+    padding-right: 0;
+}
+.row-panel > div.panel-full {
+    padding-left: 0;
+    padding-right: 0;
+}
+/*.row-panel .col-sm-6 {
     padding-left: 0;
     padding-right: 0;
 }
@@ -153,7 +176,7 @@ a:focus {
 .row-panel .panel-right {
     padding-left: 7.5px;
     padding-right: 0;
-}
+}*/
 .panel {
     box-shadow: none;
     border-radius: 0;
