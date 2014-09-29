@@ -103,10 +103,11 @@
                                         <ul class="dropdown-menu">
                                             <?php foreach ($navSub as $_nav): ?>
                                                 <?php
+                                                $_navActive = ($_nav['controller'] == $page_controller) ? 'active' : '';
                                                 $_navTitle = $_nav['title'];
                                                 $_navUrl = $_nav['url'] == '#' ? $_nav['url'] : $base_url . $_nav['url'] . $url_suffix;
                                                 ?>
-                                                <li>
+                                                <li class="<?php echo $_navActive; ?>">
                                                     <a href="<?php echo $_navUrl; ?>"><?php echo $_navTitle; ?></a>
                                                 </li>
                                             <?php endforeach; ?>
