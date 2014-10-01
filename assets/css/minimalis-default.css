@@ -7,18 +7,45 @@ a {
 }
 .navbar .navbar-nav > li > a {
     color: #ffffff;
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333;
+}
+.navbar .navbar-nav > li.dropdown > a {
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333;
 }
 .navbar .navbar-nav > li > a:hover {
     background-color: #080808;
+    border-left: 1px solid #080808;
+    border-right: 1px solid #080808;
 }
 .navbar .navbar-nav > li.active > a {
     background-color: #ffffff;
-    color: #080808;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    color: #000000;
 }
-.navbar .navbar-nav > li.open > a,
+.navbar .navbar-nav > li.open > a {
+    /*background-color: #ffffff;*/
+    border-left: 1px solid #080808;
+    border-right: 1px solid #080808;
+    /*color: #ffffff;*/
+}
+.navbar .navbar-nav > .dropdown.active > a,
+.navbar .navbar-nav > .dropdown.active.open > a {
+    border-left: 1px solid #333333;
+    border-right: 1px solid #ffffff;
+}
+/*.navbar .navbar-nav > li > a.dropdown-toggle,*/
+.navbar .navbar-nav > .dropdown.open > a {
+    border-left: 1px solid #080808;
+    border-right: 1px solid #080808;
+}
 .navbar .navbar-nav > li.active > a:hover {
-    background-color: #080808;
-    color: #ffffff;
+    /*background-color: #ffffff;
+    border-left: 1px solid #333333;
+    border-right: 1px solid #333333;
+    color: #000000;*/
 }
 .nav > li > a:hover, .nav > li > a:focus {
     background-color: #333333;
@@ -54,7 +81,7 @@ a {
 
 .dropdown-menu {
     background-color: #ffffff;
-    border: 2px solid #080808;
+    border: 1px solid #333333;
     border-top: none;
 }
 .dropdown-menu > li > a {
