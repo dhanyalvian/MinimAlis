@@ -7,7 +7,7 @@ $(document).ready(function() {
     
     var sideBarShow = function() {
         $('.navbar-side').show();
-        $('.page-content .content').css('margin-left', '197px');
+        $('.page-content .content').css('margin-left', '200px');
     };
     var sideBarHide = function() {
         $('.navbar-side').hide();
