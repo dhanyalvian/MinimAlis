@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url'] = 'http://minimalis.lokal/';
+$config['base_url'] = 'http://project.dev/minimalis/';
 
 /*
 |--------------------------------------------------------------------------

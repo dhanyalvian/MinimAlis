@@ -49,7 +49,7 @@ $active_group = 'default';
 $active_record = true;
 $default_host = 'localhost';
 $default_user = 'root';
-$default_pass = 'abcd1234';
+$default_pass = 'abcd1234Dna';
 
 $db['default']['hostname'] = $default_host;
 $db['default']['username'] = $default_user;

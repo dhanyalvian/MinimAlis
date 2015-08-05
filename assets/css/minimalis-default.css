@@ -180,3 +180,16 @@ a {
     border-bottom: 1px solid #cccccc;
 }
 
+@media (max-width: 720px) {
+    .row-panel .col-lg-3.container-fluid,
+    .row-panel .col-sm-6.panel-theme,
+    .row-panel .col-sm-4.panel-theme,
+    .row-panel .col-sm-4:last-child,
+    .row-panel .col-sm-3.panel-theme,
+    .row-panel .col-sm-3,
+    .row-panel .col-sm-3:last-child {
+        margin-bottom: 4px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
